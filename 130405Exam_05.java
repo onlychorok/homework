@@ -32,7 +32,10 @@ public class Exam_05 extends JFrame implements ActionListener{
   	start();
   	Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
   	Dimension frm = this.getSize();
-  	setSize(220,200);
+    setSize(220,200);
+    int x = (int)(screen.getWidth()/2 - frm.getWidth()/2);
+    int y = (int)(screen.getHeight()/2 - frm.getHeight()/2);
+    setLocation(x,y);
   	setResizable(false);
   	setVisible(true);
   	
