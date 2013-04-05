@@ -11,13 +11,7 @@ import java.io.*;
 03. [불러오기] 버튼을 눌렀을 때 저장된 파일의 내용을 불러와서 출력하도록 하세요.
 
 */
-/*
-class save extends JFrame{
-  public save() {
-  	
-  	setSize(100,50);
-  }
-}*/
+
 public class Exam_02 extends JFrame implements ActionListener {
   String str ="내용을 입력해주세요 ";	
   private JDialog diasave = new JDialog(this,"저장되었습니다",false);
